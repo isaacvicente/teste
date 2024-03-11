@@ -17,3 +17,6 @@ echo "Acesse o Github em: Configurations > SSH and GPG keys > New SSH key"
 echo "Em 'title' coloque o que quiser."
 echo "Em 'key' cole sua chave pública:"
 cat ~/.ssh/id_ed25519.pub
+
+echo
+echo "Quando for usar o 'git clone', escolha a opção 'SSH', no Github."
